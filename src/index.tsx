@@ -1,6 +1,7 @@
 import * as React from 'react'
 import * as ReactDOM from 'react-dom'
 import Loading from './Loading'
+import './index.css'
 
 function request (log: string) {
   return new Promise(resolve => {
@@ -12,6 +13,6 @@ function request (log: string) {
 }
 
 ReactDOM.render(
-  <Loading type="default" />,
+  <Loading className="loading" style={{ marginLeft: '50px', width: '100px', height: '100px', color: 'red'}} />,
   document.getElementById('root')
 )

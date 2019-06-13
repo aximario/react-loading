@@ -17,6 +17,10 @@ npm i @aximario/react-loading -S
 | type | loading 类型 | string | default |
 | size | loading 大小 | string | `24px` |
 | color | loading 颜色 | string | `#000` |
+| className | classname | string | - |
+| style | style | CSSProperties | `{}` |
+
+> className 和 style 设置的颜色无效，只有 color 属性能控制颜色
 
 ### type
 
@@ -35,5 +39,11 @@ loading 目前有 `3` 种类型
 <Loading />
 
 // 修改各种属性
-<Loading type="dotFade" size="30px" color="#888" />
+<Loading
+  type="dotFade"
+  size="30px"
+  color="#888"
+  className="loading"
+  style={{ marginLeft: '10px' }}
+/>
 ```
