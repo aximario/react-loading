@@ -21,6 +21,7 @@ npm i @aximario/react-loading -S
 ### type
 
 loading 目前有 `3` 种类型
+
 | 值 | 示例 |
 | -- | ---- |
 | default | ![](./svg/default.svg) |
