@@ -24,13 +24,14 @@ npm i @aximario/react-loading -S
 
 ### type
 
-loading 目前有 `3` 种类型
+loading 目前有 `4` 种类型
 
 | 值 | 示例 |
 | -- | ---- |
 | default | ![](./svg/default.svg) |
 | dotFade | ![](./svg/dotFade.svg) |
 | dotWave | ![](./svg/dotWave.svg) |
+| spin | ![](./svg/spin.svg) |
 
 ## 使用
 
