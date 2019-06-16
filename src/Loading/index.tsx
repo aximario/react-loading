@@ -19,7 +19,7 @@ export default function Loading (props: Props) {
       </svg>
     ),
     dotFade: (
-      <svg className={props.className} style={props.style} width={props.size} height={props.size} version="1.1" id="L4" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" enableBackground="new 0 0 0 0" xmlSpace="preserve">
+      <svg className={props.className} style={props.style} width={props.size} height={props.size} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid">
         <circle fill={props.color} stroke="none" cx="16" cy="50" r="8">
           <animate attributeName="opacity" dur="1s" values="0;1;0" repeatCount="indefinite" begin="0.1"></animate>    
         </circle>
@@ -32,7 +32,7 @@ export default function Loading (props: Props) {
       </svg>
     ),
     dotWave: (
-      <svg className={props.className} style={props.style} width={props.size} height={props.size} version="1.1" id="L5" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" enableBackground="new 0 0 0 0" xmlSpace="preserve">
+      <svg className={props.className} style={props.style} width={props.size} height={props.size} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid">
         <circle fill={props.color} stroke="none" cx="16" cy="50" r="8" transform="translate(0 -3.8004)">
           <animateTransform attributeName="transform" dur="1s" type="translate" values="0 15 ; 0 -15; 0 15" repeatCount="indefinite" begin="0.1"></animateTransform>
         </circle>
@@ -45,7 +45,7 @@ export default function Loading (props: Props) {
       </svg>
     ),
     spin: (
-      <svg className={props.className} style={props.style} width={props.size} height={props.size} xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid">
+      <svg className={props.className} style={props.style} width={props.size} height={props.size} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid">
         <g transform="rotate(0 50 50)">
           <rect x="46.5" y="3.5" rx="34.875" ry="2.625" width="7" height="27" fill="#000000">
             <animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.875s" repeatCount="indefinite"></animate>

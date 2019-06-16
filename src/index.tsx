@@ -13,6 +13,6 @@ function request (log: string) {
 }
 
 ReactDOM.render(
-  <Loading type="spin" className="loading" style={{ marginLeft: '50px', width: '30px', height: '30px', color: 'red'}} />,
+  <Loading type="dotWave" className="loading" style={{ marginLeft: '50px', width: '30px', height: '30px', color: 'red'}} />,
   document.getElementById('root')
 )

@@ -1,5 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" 
-  xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="L5" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 0 0" xml:space="preserve" width="40px" height="40px">
+<svg width="30px" height="30px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid">
   <circle fill="#333" stroke="none" cx="16" cy="50" r="8" transform="translate(0 13.9594)">
     <animateTransform attributeName="transform" dur="1s" type="translate" values="0 15 ; 0 -15; 0 15" repeatCount="indefinite" begin="0.1"/>
   </circle>
@@ -9,4 +8,4 @@
   <circle fill="#333" stroke="none" cx="84" cy="50" r="8" transform="translate(0 1.34686)">
     <animateTransform attributeName="transform" dur="1s" type="translate" values="0 5 ; 0 -5; 0 5" repeatCount="indefinite" begin="0.3"/>
   </circle>
-</svg>å
+</svg>
